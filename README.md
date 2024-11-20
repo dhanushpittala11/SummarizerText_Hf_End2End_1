@@ -1,3 +1,3 @@
-# Text Summarizer End-to-End Pipeline 
+# Text Summarizer End-to-End Pipeline with Huggingface Models
 
 Developed a comprehensive text summarization web application using Hugging Face models fine-tuned on a custom dataset. This project involved building an end-to-end pipeline encompassing data ingestion, data transformation, model training, evaluation, and prediction, along with API integration and web hosting for seamless user interaction. Additional features include the implementation of GitHub Actions for continuous integration and deployment, robust Python logging for efficient debugging, and workflow optimization.The application leverages advanced NLP techniques and demonstrates expertise in MLOps, model deployment, and the development of scalable web applications.
