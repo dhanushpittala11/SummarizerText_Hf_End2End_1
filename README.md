@@ -6,7 +6,7 @@
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [What it does?](#what-it-does?)
-  * [Getting Started](#Getting_started)
+  * [Getting Started](#Getting-started)
   * [Installation](##installation)
   * [Setup](##setup)
   * [Usage](#usage)
@@ -46,7 +46,8 @@ The **FastAPI application serves a REST API** with two routes:
 * **Prediction Route (/predict):** Accepts a POST request with text, processes it through the PredictionPipeline, and returns the summarized text.
 * The server runs on http://0.0.0.0:8080 when executed.
 
-
+## Getting Started
+  We will get started with installation and set up process
 
 
 
