@@ -1,6 +1,7 @@
 # End-to-End Text Summarizer with Huggingface Model
+![](text_summarizer.png)
 
-## Table of Content
+## Table of Contents
   * [Demo](#demo)
   * [Overview](#overview)
   * [Motivation](#motivation)
@@ -17,3 +18,10 @@
   * [Credits](#credits)
 
 ## Demo
+[Link:](Project_Demo_Showcase.mp4)
+<video width="640" height="360" controls>
+  <source src="Project_Demo_Showcase.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
