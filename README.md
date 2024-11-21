@@ -5,7 +5,7 @@
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [What it does ?](#what_it_does?)
-  * [Getting Startes](#Getting_started)
+  * [Getting Started](#Getting_started)
   * [Installation](##installation)
   * [Setup](##setup)
   * [Usage](#usage)
