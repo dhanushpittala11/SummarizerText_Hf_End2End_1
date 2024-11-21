@@ -5,7 +5,7 @@
   * [Demo](#demo)
   * [Overview](#overview)
   * [Motivation](#motivation)
-  * [What it does ?](#what-it-does-?)
+  * [What it does?](#what-it-does?)
   * [Getting Started](#Getting_started)
   * [Installation](##installation)
   * [Setup](##setup)
