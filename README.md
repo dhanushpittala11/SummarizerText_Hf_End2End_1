@@ -19,8 +19,10 @@
 
 ## Demo
 [Link:](Project_Demo_Showcase.mp4)
-<video width="640" height="360" controls>
-  <source src="Project_Demo_Showcase.mp4" type="video/mp4">
-</video>
 
+https://github.com/user-attachments/assets/21faa3b6-c36d-4248-ba2f-cfeecd943c70
+
+
+## Overview
+This is an end-to-end text summarization web application based on fastAPI. It uses a finetuned version of the [pegasus model](https://huggingface.co/google/pegasus-cnn_dailymail) to summarize the text from any source. This project involved building an end-to-end pipeline encompassing data ingestion, data transformation, model training, evaluation, and prediction, along with API integration and web hosting for seamless user interaction. Additional features include the implementation of GitHub Actions for continuous integration, robust Python logging for efficient debugging, and workflow optimization.
 
