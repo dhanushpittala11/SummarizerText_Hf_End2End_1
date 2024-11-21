@@ -5,10 +5,8 @@
   * [Demo](#demo)
   * [Overview](#overview)
   * [Motivation](#motivation)
-  * [What It Does?](#what-it-does?)
+  * [What It Does](#what-it-does)
   * [Getting Started](#Getting-started)
-  * [Installation](##installation)
-  * [Setup](##setup)
   * [Usage](#usage)
   * [Directory Tree](#directory-tree)
   * [To Do](#to-do)
@@ -29,7 +27,7 @@ This is an end-to-end text summarization web application based on fastAPI. It us
 ## Motivation
 Imagine a scenario where you want a specific context from a news paper article. Wouldn't it be a tedious task to read the entire article? Instead if you know the context information for specific section of text, you can decide whether to go through that specific section or not. So you can take help of this summarizer to find out which part of the newspaper or any other source, you are interested in. This approach is quicker and reliable as it uses a **trained** and **finetuned sequence-to sequence model** which retrieves the accurate context from the query.
 
-## What It Does?
+## What It Does
 Before going to the functioning of the project I will brief upon the initial setup
 * **Create requirements.txt file to install all the dependencies.**
 * **Create a series of directories and files to organize the project effectively. Configure logging to log all actions like directory and file creation or skipping existing files. Here we are allowing for modular logging.**
@@ -47,7 +45,28 @@ The **FastAPI application serves a REST API** with two routes:
 * The server runs on http://0.0.0.0:8080 when executed.
 
 ## Getting Started
-  We will get started with installation and set up process
+  We will get started with installation and set up process. Clone the repository and open the folder using Vs Code.
+  ### Clone this repository into a local folder:
+  ```
+  git clone https://github.com/dhanushpittala11/SummarizerText_Hf_End2End_1.git
+  ```
+  ### Setup Environment using:
+  ```bash
+  conda create -p venv python==3.10 -y
+  ```
+  If conda is not installed, run this command in the terminal of the project environment.
+  ```bash
+  pip install conda
+  ```
+  ### Activate the environment:
+  ```bash
+  conda activate venv/
+  ```
+  ### Install all the required libraries and packages using the command:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
 
 
 
