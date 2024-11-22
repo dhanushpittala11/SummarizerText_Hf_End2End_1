@@ -151,6 +151,87 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/dhanushpittala11/SummarizerText_Hf_End2End_1/issues/new). Please include sample queries and their corresponding results.
 
+## Techstack Used
+ ### Version Control and Collaboration
+ * **Git**
+ * **GitHub**
+
+ ### Natural Language Processing and Sequence -to- Sequence Models
+ * **HuggingFace**
+ * **Transformers**
+ * **AutoTokenizer**
+ * **nltk**
+ * **Pegasus**
+ * **ROUGE**
+
+ ### Deep Learning Frameworks and Libraries
+ * **PyTorch**
+ * **CUDA**
+ * **nvidia-smi**
+
+ ### Logging and Monitoring
+ * **Python Logging**
+ * **Logger**
+ * **WandB**
+
+ ### Data Processing
+ * **Pandas**
+
+ ### Configuration and File Management
+ * **yaml**
+ * **ConfigBox**
+
+ ### Web Frameworks and Deployment
+ * **FastAPI**
+ * **uvicorn**
+ * **Starlette**
+
+## License
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+## Team
+Dhanush Pittala - [@Linkedin](https://www.linkedin.com/in/dhanush-pittala-83b964225) - dhanushpittala05@gmail.com
+
+## Credits
+
+* [Link](https://huggingface.co/datasets/knkarthick/dialogsum) for the dataset used in the project.
+  
+     @inproceedings{chen-etal-2021-dialogsum,
+       title = "{D}ialog{S}um: {A} Real-Life Scenario Dialogue Summarization Dataset",
+       author = "Chen, Yulong  and
+         Liu, Yang  and
+         Chen, Liang  and
+         Zhang, Yue",
+       booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+       month = aug,
+       year = "2021",
+       address = "Online",
+       publisher = "Association for Computational Linguistics",
+       url = "https://aclanthology.org/2021.findings-acl.449",
+       doi = "10.18653/v1/2021.findings-acl.449",
+       pages = "5062--5074",
+
+* [Link](https://huggingface.co/google/pegasus-cnn_dailymail) for the model used.
+  
+
+   @misc{zhang2019pegasus,
+       title={PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization},
+       author={Jingqing Zhang and Yao Zhao and Mohammad Saleh and Peter J. Liu},
+       year={2019},
+       eprint={1912.08777},
+       archivePrefix={arXiv},
+       primaryClass={cs.CL}
+   }
 
 
 
