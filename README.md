@@ -66,8 +66,83 @@ The **FastAPI application serves a REST API** with two routes:
   ```bash
   pip install -r requirements.txt
   ```
-
-
+## Usage
+  ### Now run the script using:
+  ```bash
+  python main.py
+  python app.py
+  ```
+## Directory Tree
+   ```
+./.github
+    ./.github/workflows     -> store workflow configuration files for github actions
+        ./.gitkeep     
+./artifacts
+    ./artifacts/data_ingestion    -> stores the data files extracted from hugging face
+        ./huggingface_dialogsum_dataset
+        ./data.zip
+    ./artifacts/data_transformation  -> stores the transformed  data - train,test and validation datasets
+        ./test
+        ./train
+        ./validation
+    ./artifacts/model_trainer       -> saves and stores the finetuned model and tokenizer
+        ./pegasus-dialogsum-model
+        ./tokenizer
+    ./artifacts/model_evaluation     -> saves the metrics after model evaluation
+        ./metrics.csv
+./config
+    ./config/config.yaml         -> defines the configuration for the end-to-end text summarization pipeline, specifying paths, URLs, model/tokenizer details 
+./logs
+    ./logs/continuos_logs.log    -> store runtime information, errors, and activity logs
+./research                       
+    ./research/ModelTrainer1.ipynb  ->  ipynb file for the pipeline which trains the model using the transformed data
+    ./research/dialogsum.ipynb      -> ipynb file specific for fine tuning the model
+    ./research/model_evaluation.ipynb -> ipynb file for the pipeline which evaluates the model
+    ./research/DataTransformation.ipynb  -> ipynb file for the pipeline which splits the ingested data into train, test, validation sets
+    ./research/DataIngestion1.ipynb   -> ipynb file for setting up the data ingestion pipeline
+    ./research/research.ipynb
+./src
+    ./src/textSummarizer
+        ./__pycache__
+        ./components
+            ./__init__.py
+            ./data_ingestion.py
+            ./data_transformation.py
+            ./model_trainer.py
+            ./model_evaluation.py
+        ./config
+            ./__init__.py
+            ./configuration.py
+        ./constants
+            ./__init__.py
+        ./entity
+            ./__init__.py
+        ./logging
+            ./__init__.py
+        ./pipeline
+            ./__init__.py
+            ./prediction_pipeline.py
+            ./stage1_dataIngestion_pipeline.py
+            ./stage2_DataTransformation_pipeline.py
+            ./stage3_modeltrainer_pipeline.py
+            ./stage4_modelevaluation_pipeline.py
+        ./utils
+            ./__init__.py  
+            ./common.py
+        ./__init__.py
+./venv
+./.gitignore
+./app.py
+./huggingface_dialogsum_dataset.zip
+./LICENSE
+./main.py
+./params.yaml
+./README.md
+./requirements.txt
+./template.py
+```
+   
+  
 
 
 
