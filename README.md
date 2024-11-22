@@ -104,42 +104,42 @@ The **FastAPI application serves a REST API** with two routes:
 ./src
     ./src/textSummarizer
         ./__pycache__
-        ./components
+        ./components             
             ./__init__.py
-            ./data_ingestion.py
-            ./data_transformation.py
-            ./model_trainer.py
-            ./model_evaluation.py
+            ./data_ingestion.py    -> download a file from a specified URL and extract its contents into a designated directory
+            ./data_transformation.py  -> preprocesses the data by tokenizing dialogues,their summaries for model training, saves data to disk
+            ./model_trainer.py   -> trains a text summarization model using the Pegasus architecture, saves the trained model and tokenizer
+            ./model_evaluation.py  -> evaluates a trained text summarization model by computing ROUGE metrics on a test dataset
         ./config
             ./__init__.py
-            ./configuration.py
+            ./configuration.py -> reads configuration and parameter files, creates necessary directories, and generates configuration objects
         ./constants
-            ./__init__.py
+            ./__init__.py  -> contains the path for YAML files
         ./entity
-            ./__init__.py
+            ./__init__.py  -> defines data classes to structure and manage configuration settings for different components of the pipeline
         ./logging
-            ./__init__.py
+            ./__init__.py  -> sets logging system that outputs log messages to file and console for tracking  the text summarization process
         ./pipeline
             ./__init__.py
-            ./prediction_pipeline.py
-            ./stage1_dataIngestion_pipeline.py
-            ./stage2_DataTransformation_pipeline.py
-            ./stage3_modeltrainer_pipeline.py
-            ./stage4_modelevaluation_pipeline.py
+            ./prediction_pipeline.py -> Prediction pipeline
+            ./stage1_dataIngestion_pipeline.py  -> Data Ingestion pipeline
+            ./stage2_DataTransformation_pipeline.py -> Data Transformation  pipeline
+            ./stage3_modeltrainer_pipeline.py  -> Model trainer pipeline
+            ./stage4_modelevaluation_pipeline.py -> Model evaluation pipeline
         ./utils
             ./__init__.py  
-            ./common.py
+            ./common.py -> read YAML files into ConfigBox and create directories while logging the process
         ./__init__.py
-./venv
-./.gitignore
-./app.py
-./huggingface_dialogsum_dataset.zip
+./venv  -> virtual environment for the project 
+./.gitignore -> specifies files not to be tracked in version control
+./app.py  -> 
+./huggingface_dialogsum_dataset.zip -> dataset used in the project
 ./LICENSE
-./main.py
-./params.yaml
-./README.md
-./requirements.txt
-./template.py
+./main.py -> orchestrates and logs the execution of all the stages in the pipeline and handling exceptions for each stage.
+./params.yaml  -> training parameters
+./README.md   
+./requirements.txt -> check all the dependencies, libraries, packages in this
+./template.py  
 ```
    
   
