@@ -141,8 +141,16 @@ The **FastAPI application serves a REST API** with two routes:
 ./requirements.txt -> check all the dependencies, libraries, packages in this
 ./template.py  
 ```
-   
   
+  
+## To Do
+Deploy the app in the cloud and monitor the training, evaluation, prediction part.
+
+## Bug / Feature Request
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/dhanushpittala11/SummarizerText_Hf_End2End_1/issues/new) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/dhanushpittala11/SummarizerText_Hf_End2End_1/issues/new). Please include sample queries and their corresponding results.
+
 
 
 
